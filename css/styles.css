@@ -1,0 +1,15 @@
+.result {
+  display: none;
+  float:left;
+  margin-left: 40px;
+}
+body{
+  text-align: left;
+  background-image: url("../img/fib.jpg"); 
+  margin-top: 25px;
+  color: red; 
+}
+button{
+  color: black;
+  margin-bottom: 10px;
+}
