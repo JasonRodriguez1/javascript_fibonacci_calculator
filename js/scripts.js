@@ -28,11 +28,6 @@ $(function() {
     if(result === "error") {
       alert("Invalid Input");
     } else {
-      // resultArray.forEach(function(num){
-        // alert(num);
-      //   $("#results h1").empty().append(num);
-      //   $("#results").fadeIn(200).delay(200).fadeOut(200);
-      // });
       $("#results h1").empty().append(result);
       $("#results").fadeIn();   
     }
